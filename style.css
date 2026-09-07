@@ -4,7 +4,7 @@
     --js: #B7B7B7;
     --cs: #817f7f;
     --bcs: #222222;
-
+    --ciemnyszary:#1d1d1d48;
 }
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -13,8 +13,6 @@
 body {
     padding: 0px;
     margin: 0px;
-    height: 100vw;
-    width: 100vw;
     background-color: var(--cz);
 }
 
@@ -24,9 +22,9 @@ header {
     background-color: var(--js);
 }
 
-img {
+.k {
     padding-left: 30px;
-    padding-top: 40px;
+    padding-top: 50px;
     background-color: var(--js);
 }
 
@@ -48,8 +46,39 @@ img {
     height: 100%;
 }
 
+.kwerenda12 {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    width: 350px;
+    height: 60px;
+    font-size: 20px;
+    background-color: var(--ciemnyszary);
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+}   
+
+.kwerenda34 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 110px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    width: 350px;
+    height: 60px;
+    font-size: 20px;
+    background-color: var(--ciemnyszary);
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+}
+
 .second {
-    background-color: var(--cs)
+    background-color: var(--cs);
     width: 50%;
 
 }
@@ -67,10 +96,10 @@ main {
 .left {
     display: flex;
     justify-self: flex-end;
-    border-radius: 30px;    
-    width: 39%;
-    height: 100%;
     background-color: white;
+    width: 40%;
+
+    border-radius: 30px;
 }
 .text {
     padding-top: 20px;
@@ -90,11 +119,14 @@ table {
     color: white;
     font-style: oblique;
 }
-
-footer {
-    position: fixed;
-    background-color: var(--bcs);
-    height: 100%;
-    width: 100%;
-    clear: both;
-}   
+ 
+.footer {
+    padding-top: 20px;
+    background-color: var(--z);
+    text-align: center;
+    width: 1160px;
+    height: 90px;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+}
