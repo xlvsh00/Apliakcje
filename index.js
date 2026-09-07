@@ -40,11 +40,3 @@ btn_dodaj.addEventListener('click', (e) => {
         }
 })  
 
-function obsusun() {
-    document.querySelectorAll('.btn_usun').forEach(btn => {
-        btn.onclick = () => {
-            btn.closest('tr').remove();
-            localStorage.setItem('rows', tbody.innerHTML);
-        };
-    });
-}
